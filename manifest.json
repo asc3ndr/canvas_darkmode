@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Canvas Dark Mode",
+  "version": "1.0.0",
+  "description": "Dark Mode for Canvas web extension.",
+  "icons": {
+    "48": "icon/48.png",
+    "128": "icon/128.png"
+  },
+  "browser_action": {
+    "default_title": "Canvas dark mode",
+    "default_popup": "/browser-action/popup.html"
+  },
+  "content_scripts": [
+    {
+      "css": [
+        "/content-scripts/canvas/main.css"
+      ],
+      "js": [
+        "/content-scripts/canvas/main.js"
+      ],
+      "matches": [
+        "https://*.instructure.com/*"
+      ],
+      "run-at": [
+        "document_start"
+      ]
+    }
+  ]
+}
