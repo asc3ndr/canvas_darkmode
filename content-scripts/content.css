@@ -154,7 +154,32 @@ i[class*=icon-paperclip]:before, i[class^=icon-paperclip]:before, a[class*=icon-
   color: var(--canvas-primary-text-color) !important;
 }
 
+
+
 #edit_course_syllabus_form
+{
+  border: 1px solid var(--canvas-primary-text-color) !important;
+  background-color: var(--canvas-secondary-background-color) !important;
+  color: var(--canvas-primary-text-color) !important;
+}
+
+.dXATK_cAug
+{
+  border-top: 1px solid var(--canvas-primary-text-color) !important;
+  border-left: 1px solid var(--canvas-primary-text-color) !important;
+  border-right: 1px solid var(--canvas-primary-text-color) !important;
+  border-bottom: none !important;
+  background-color: var(--canvas-primary-button-color) !important;
+  color: var(--canvas-primary-text-color) !important;
+}
+
+.dXATK_cAug[aria-selected]
+{
+  background-color: var(--canvas-secondary-background-color) !important;
+  color: var(--canvas-primary-text-color) !important;
+}
+
+.cDwzl_cAug .cDwzl_caGd
 {
   border: 1px solid var(--canvas-primary-text-color) !important;
   background-color: var(--canvas-secondary-background-color) !important;
@@ -339,6 +364,14 @@ svg path
 #ColorPicker__Apply:hover
 {
   background-color: var(--canvas-secondary-button-color) !important;
+}
+
+._1iyfu1y,
+._xl47ao2,
+.MlJlv_ycrn .MlJlv_ebWM,
+.MlJlv_ebWM 
+{
+  color: var(--canvas-primary-text-color) !important;
 }
 
 

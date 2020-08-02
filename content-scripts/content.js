@@ -1,7 +1,9 @@
 function setMetaTheme() {
   document.querySelector("[name='theme-color']").remove()
+
   let head = document.getElementsByTagName('head')[0];
   let meta = document.createElement('meta');
+
   meta.setAttribute('name', 'theme-color')
   meta.content = "#404040";
   head.appendChild(meta);
@@ -43,4 +45,4 @@ function injectVars(color) {
 }
 
 setMetaTheme();
-injectVars("#404040"); 
+injectVars();
