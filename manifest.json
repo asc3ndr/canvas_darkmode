@@ -14,10 +14,10 @@
   "content_scripts": [
     {
       "css": [
-        "/content-scripts/main.css"
+        "/content-scripts/content.css"
       ],
       "js": [
-        "/content-scripts/main.js"
+        "/content-scripts/content.js"
       ],
       "matches": [
         "https://*.instructure.com/*"
