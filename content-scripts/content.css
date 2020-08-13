@@ -125,6 +125,7 @@ body > div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable.ui-r
 #add_comment_form > div.button-container > button,
 .al-options .ui-menu-item:first-of-type a,
 .al-options.ui-state-open,
+#content > div > span > span:nth-child(2) > div > div.cvphu_fsGh > span > button,
 #content > div > div > div.ic-Action-header > div.ic-Action-header__Secondary > div > a,
 body > div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable.ui-resizable.ui-dialog-buttons.compose-message-dialog > div.ui-dialog-buttonpane.ui-widget-content.ui-helper-clearfix > div:nth-child(2) > button.btn-primary.send-message.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only
 {
@@ -148,12 +149,17 @@ i[class*=icon-announcement]:before, i[class^=icon-announcement]:before, a[class*
 
 [id^="ui-id-"]
 {
-  background-color: var(--canvas-primary-button-color) !important;
+  background-color: var(--canvas-primary-background-color) !important;
   color: var(--canvas-primary-text-color) !important;
   border: 1px solid var(--canvas-primary-outline-color) !important;
 }
 
 [id^="mceu_"] *
+{
+  color: var(--canvas-primary-text-color) !important;
+}
+
+[dir="ltr"] *
 {
   color: var(--canvas-primary-text-color) !important;
 }
@@ -167,8 +173,6 @@ i[class*=icon-announcement]:before, i[class^=icon-announcement]:before, a[class*
   background-color: var(--canvas-primary-text-color) !important;
 
 }
-
-
 
 #edit_course_syllabus_form
 {
@@ -315,6 +319,21 @@ svg path
   color: black !important;
 }
 
+span.day_number
+{
+  color: var(--canvas-primary-text-color) !important;
+}
+
+.mini_calendar_week
+{
+  background-color: var(--canvas-primary-background-color) !important;
+}
+
+.mini_calendar .day.has_event,
+.mini_calendar .day.today
+{
+  background-color: var(--canvas-primary-button-color) !important;
+}
 
 
 /* LEFT NAVBAR */
@@ -387,7 +406,7 @@ svg path
 ._1iyfu1y,
 ._xl47ao2,
 .MlJlv_ycrn .MlJlv_ebWM,
-.MlJlv_ebWM 
+.MlJlv_ebWM
 {
   color: var(--canvas-primary-text-color) !important;
 }
@@ -456,6 +475,11 @@ body.primary-nav-expanded .ic-app-header__menu-list-item.ic-app-header__menu-lis
   background-color: var(--canvas-secondary-background-color) !important;
 }
 
+#syllabus tr.date.selected td
+{
+  background-color: var(--canvas-primary-background-color) !important;
+}
+
 .omit-from-final-warning
 {
   background-color: var(--canvas-secondary-background-color) !important;
@@ -490,7 +514,30 @@ i.nav-icon:before
   background-color: var(--canvas-primary-background-color) !important;
 }
 
+#content > div > span > span > table tbody tr th,
+#content > div > span > span > table tbody tr td,
+#content > div > span > span:nth-child(3) > div > label > span > span.fhWLw_blJt.fhWLw_bYta,
+.eJkkQ_bEpV
+{
+  background-color: var(--canvas-primary-background-color) !important;
+  color: var(--canvas-primary-text-color) !important;
+}
 
+#content > div > span > span:nth-child(2) > div
+{
+  background-color: var(--canvas-secondary-background-color) !important;
+  color: var(--canvas-primary-text-color) !important;
+}
+
+#content > div > span > span:nth-child(5) > table:nth-child(1) > tbody > tr:nth-child(7) > th > span.fOyUs_bGBk.fOyUs_UeJS > div > label > span > span.fhWLw_blJt.fhWLw_bYta
+{
+  color: var(--canvas-primary-text-color) !important;
+}
+
+#content > div > span > span:nth-child(5) > table:nth-child(1) > tbody > tr:nth-child(1) > td:nth-child(3) > span > span > button::before
+{
+  color: white !important
+}
 
 /* TASKS */
 .submission-details-comments .comments
@@ -845,7 +892,8 @@ div#course-filter-bs.dropdown-menu.open,
   display: none;
 }
 
-span.fQfxa_eoCh svg,
+/* 
+span.fQfxa_eoCh svg, */
 .esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk.DashboardCardMenu__MovementIcon,
 #ColorPicker__Apply,
 .fOyUs_bGBk.fOyUs_dnJm.fOyUs_tIxX.fOyUs_EMjX.fOyUs_kXoP.fOyUs_UeJS.fOyUs_bxuL.dqmEK_caGd,
