@@ -1,17 +1,6 @@
-function setMetaTheme() {
-  document.querySelector("[name='theme-color']").remove()
-
-  let head = document.getElementsByTagName('head')[0];
-  let meta = document.createElement('meta');
-
-  meta.setAttribute('name', 'theme-color')
-  meta.content = "#404040";
-  head.appendChild(meta);
-}
-
 function injectVars(color) {
-  let root = document.documentElement;
 
+  let root = document.documentElement;
   root.style.setProperty("--ic-brand-primary-darkened-5", color);
   root.style.setProperty("--ic-brand-primary-darkened-10", color);
   root.style.setProperty("--ic-brand-primary-darkened-15", color);
@@ -42,7 +31,10 @@ function injectVars(color) {
   root.style.setProperty("--ic-brand-global-nav-menu-item__badge-bgd", color);
   root.style.setProperty("--ic-brand-global-nav-menu-item__badge-text", "white");
   root.style.setProperty("--ic-brand-global-nav-logo-bgd", color);
+
+  let meta = document.querySelector("[name='theme-color']")
+  meta.content = color;
 }
 
-setMetaTheme();
-injectVars();
+primary_color = "#404040"
+injectVars(primary_color);

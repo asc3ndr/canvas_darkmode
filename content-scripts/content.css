@@ -114,6 +114,7 @@ body > span > span > div > div > aside > div > section.StudentContextTray__Secti
 .fNHEA_cjSw.fNHEA_ycrn .fNHEA_bOnW .fNHEA_blJt,
 #content > div:nth-child(14) > div:nth-child(2) > a,
 #whats_an_eportfolio > div > a,
+#content > div.header-bar > div > div > div > a,
 body > span:nth-child(109) > span > span > div.dNoYT_bGBk > button.fOyUs_bGBk.fOyUs_fKyb.fOyUs_cuDs.fOyUs_cBHs.fOyUs_eWbJ.fOyUs_fmDy.fOyUs_eeJl.fOyUs_cBtr.fOyUs_fuTR.fOyUs_cnfU.fQfxa_bGBk,
 body > span:nth-child(109) > span > span > div.dNoYT_bGBk > button.fOyUs_bGBk.fOyUs_fKyb.fOyUs_cuDs.fOyUs_cBHs.fOyUs_eWbJ.fOyUs_fmDy.fOyUs_eeJl.fOyUs_cBtr.fOyUs_fuTR.fOyUs_cnfU.fQfxa_bGBk::before,
 #submit_discussion_settings,
@@ -124,6 +125,7 @@ body > div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable.ui-r
 #add_comment_form > div.button-container > button,
 .al-options .ui-menu-item:first-of-type a,
 .al-options.ui-state-open,
+#content > div > div > div.ic-Action-header > div.ic-Action-header__Secondary > div > a,
 body > div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable.ui-resizable.ui-dialog-buttons.compose-message-dialog > div.ui-dialog-buttonpane.ui-widget-content.ui-helper-clearfix > div:nth-child(2) > button.btn-primary.send-message.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only
 {
   background-color: var(--canvas-primary-button-color);
@@ -137,6 +139,8 @@ i[class*=icon-unpublish]:before, i[class^=icon-unpublish]:before, a[class*=icon-
 i[class*=icon-arrow-right]:before, i[class^=icon-arrow-right]:before, a[class*=icon-arrow-right]:before, a[class^=icon-arrow-right]:before,
 i[class*=icon-arrow-down]:before, i[class^=icon-arrow-down]:before, a[class*=icon-arrow-down]:before, a[class^=icon-arrow-down]:before,
 i[class*=icon-paperclip]:before, i[class^=icon-paperclip]:before, a[class*=icon-paperclip]:before, a[class^=icon-paperclip]:before,
+i[class*=icon-calendar-day]:before, i[class^=icon-calendar-day]:before, a[class*=icon-calendar-day]:before, a[class^=icon-calendar-day]:before,
+i[class*=icon-announcement]:before, i[class^=icon-announcement]:before, a[class*=icon-announcement]:before, a[class^=icon-announcement]:before,
 [dir="ltr"] .dxCCp_eXrk:last-of-type 
 {
   color: var(--canvas-primary-text-color);
@@ -152,6 +156,16 @@ i[class*=icon-paperclip]:before, i[class^=icon-paperclip]:before, a[class*=icon-
 [id^="mceu_"] *
 {
   color: var(--canvas-primary-text-color) !important;
+}
+
+
+
+/* MEDIA PLAYER */
+#content > ul > li.active
+{
+  background-image: linear-gradient(to bottom, #303030, #505050);
+  background-color: var(--canvas-primary-text-color) !important;
+
 }
 
 
@@ -227,7 +241,8 @@ svg path
 
 
 /* RUBRIC */
-.rubric_container .rubric_title
+.rubric_container .rubric_title,
+#flashalert_message_holder > div > div
 {
   background-color: var(--canvas-primary-background-color) !important;
   color: var(--canvas-primary-text-color) !important;
@@ -240,7 +255,8 @@ svg path
 #right-side p.email_channel,
 .feature-title,
 .feature-details p,
-.event-details-timestring
+.event-details-timestring,
+.discussion-fyi
 {
   color: var(--canvas-primary-text-color) !important;
 }
@@ -262,7 +278,8 @@ svg path
   color: var(--canvas-primary-text-color) !important;
 }
 
-.agenda-wrapper .agenda-container
+.agenda-wrapper .agenda-container,
+#dashboard-planner > div > div
 {
   background-color: var(--canvas-secondary-background-color) !important;
   border: 1px solid var(--canvas-primary-outline-color) !important;
@@ -308,17 +325,18 @@ svg path
 
 .ic-app-header__menu-list-item--active a div svg path
 {
-  fill: var(--canvas-primary-background-color) !important;
+  fill: var(--canvas-primary-text-color) !important;
 }
 #add-message-attachment-button,
 .navigation-tray-container
 {
-  background-color: var(--canvas-secondary-background-color) !important;
+  background-color: var(--canvas-primary-background-color) !important;
 }
 
 .cjUyb_bGBk.cjUyb_eQnG, input.cjUyb_bGBk[type].cjUyb_eQnG,
 #GradeSummarySelectMenuGroup > span > span:nth-child(1) > label > span > span > span.bNerA_bGBk.bNerA_NmrE.bNerA_dBtH.bNerA_bBOa.bNerA_buDT.bNerA_DpxJ > span,
-.message-detail.span8 .date, .message-detail.conversations__message-detail .date
+.message-detail.span8 .date, .message-detail.conversations__message-detail .date,
+.recent_activity .image-block-image i:before
 {
   color: var(--canvas-primary-text-color) !important;
 }
@@ -383,14 +401,23 @@ svg path
   background: var(--canvas-primary-button-color) !important;
 }
 
+.ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .ic-app-header__menu-list-link
+{
+  background-color: var(--canvas-primary-background-color) !important;
+}
+
 .ic-DashboardCard__header-subtitle,
-.ic-DashboardCard__header-term
+.ic-DashboardCard__header-term,
+.event-details__title,
+.event-details p,
+body.primary-nav-expanded .ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .menu-item__text
 {
   color: var(--canvas-primary-text-color) !important;
 }
 
 .unpublished_courses_redesign .ic-DashboardCard__box__header,
-.header-bar
+.header-bar,
+.event-details
 { 
   background-color:var(--canvas-primary-background-color) !important;
 }
@@ -597,7 +624,10 @@ textarea.ic-Input
   background-color: var(--canvas-secondary-background-color) !important;
 }
 
-
+#syllabus tr.date.related td
+{
+  background-color: var(--canvas-primary-button-color) !important;
+}
 
 /* STUDENT TRAY */
 .StudentContextTray,
@@ -610,7 +640,8 @@ textarea.ic-Input
 
 .fNsZS_blJt,
 .fNsZS_fqzO,
-body > span > span > div > div > aside > div > header > div.StudentContextTray-Header__Layout > div.StudentContextTray-Header__Actions > button
+body > span > span > div > div > aside > div > header > div.StudentContextTray-Header__Layout > div.StudentContextTray-Header__Actions > button,
+#student_group_filter_mount_point > label > span > span > span.bNerA_bGBk.bNerA_NmrE.bNerA_dBtH.bNerA_bBOa.bNerA_buDT.bNerA_DpxJ > span
 {
   color: var(--canvas-primary-text-color) !important;
 }
