@@ -1,4 +1,43 @@
-:root
+/* 
+ HTB green #9fef00
+ Hacker grey #a4b1cd
+ Node black #141d2b
+
+ Malware red #ff3e3e
+ Azure #0086ff
+ Vivid purple #9f00ff
+ Nugget yellow #ffaf00
+ Aquamarine #2ee7b6
+*/
+
+/* HTB 1 */
+/* :root
+{
+  --canvas-primary-background-color: #141d2b;
+  --canvas-secondary-background-color: #0c111a;
+  --canvas-primary-text-color: white;
+  --canvas-primary-button-color: #0c111a;
+  --canvas-secondary-button-color: #141d2b;
+  --canvas-primary-outline-color: #a4b1cd;
+  --canvas-primary-pre-color: #141d2b;
+  --canvas-primary-pre-text-color: #66D9EF;
+} */
+
+/* HTB 2 */
+/* :root
+{
+  --canvas-primary-background-color: #0c111a;
+  --canvas-secondary-background-color: #141d2b;
+  --canvas-primary-text-color: white;
+  --canvas-primary-button-color: #141d2b;
+  --canvas-secondary-button-color: #0c111a;
+  --canvas-primary-outline-color: #9fef00;
+  --canvas-primary-pre-color: #0c111a;
+  --canvas-primary-pre-text-color: #9fef00;
+} */
+
+/* ORIGINAL */
+/* :root
 {
   --canvas-primary-background-color: #404040;
   --canvas-secondary-background-color: #505050;
@@ -6,7 +45,34 @@
   --canvas-primary-button-color: #303030;
   --canvas-secondary-button-color: #606060;
   --canvas-primary-outline-color: #C7CDD1;
+  --canvas-primary-pre-color: #303030;
+  --canvas-primary-pre-text-color: #9fef00;
+} */
+
+/* MONOKAI */
+:root
+{
+  --canvas-primary-background-color: #272822;
+  --canvas-secondary-background-color: #1f201b;
+  --canvas-primary-text-color: #75715E;
+  --canvas-primary-button-color: #F8F8F2;
+  --canvas-secondary-button-color: #F8F8F2;
+  --canvas-primary-outline-color: #75715E;
+  --canvas-primary-pre-color: #272822;
+  --canvas-primary-pre-text-color: #66D9EF;
 }
+
+/* Background	#272822 
+Foreground	#F8F8F2 
+Comment	#75715E 
+Red	#F92672 
+Orange	#FD971F 
+Light Orange	#E69F66
+Yellow	#E6DB74 
+Green	#A6E22E 
+Blue	#66D9EF 
+Purple #AE81FF
+*/
 
 html,
 body,
@@ -75,10 +141,13 @@ button.element_toggler,
 #calendar_header > div > div.header-table-row > div.header-table-cell.header-table-left > div > span.navigation_buttons.ui-buttonset > button.navigate_next.btn.ui-button.ui-widget.ui-state-default.ui-button-text-only.ui-corner-right,
 #content > div.header-bar > div > div > a,
 #content > div.header-bar > div > div > button,
-#content > div.header-bar > div > div > div > a
-#week,
+#content > div.header-bar > div > div > div > a,
+#nav-tray-portal > span > span > div > div > div > div > div > span > form > button,
+#nav-tray-portal > span > span > div > div > div > div > div > span > form > button::before,
 #month,
 #agenda,
+#course_show_secondary > a,
+#course_show_secondary > div > a,
 #create_new_event_link,
 #edit_calendar_event_form > div.popover-links-holder.event-details-footer.pull-right > a,
 #edit_calendar_event_form > div.popover-links-holder.event-details-footer.pull-right > button,
@@ -125,6 +194,20 @@ body > div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable.ui-r
 #add_comment_form > div.button-container > button,
 .al-options .ui-menu-item:first-of-type a,
 .al-options.ui-state-open,
+#edit_assignment_form > div.form-actions > div.assignment__action-buttons > button.btn.cancel_button,
+#edit_assignment_form > div.form-actions > div.assignment__action-buttons > button.btn.btn-default.save_and_publish,
+#edit_assignment_form > div.form-actions > div.assignment__action-buttons > button.btn.btn-primary,
+#bordered-wrapper > div > div:nth-child(2) > div:nth-child(1) > div > div > div > div.input-append > button,
+#bordered-wrapper > div > div:nth-child(2) > div:nth-child(2) > div > div > div.from > div > div > div.input-append > button,
+#bordered-wrapper > div > div:nth-child(2) > div:nth-child(1) > div > div > div > div.input-append > button,
+#assignment-gear-button-cr > a,
+#nav-tray-portal > span > span > div > div > div > div > div > span > form > button > span,
+#add-group-set,
+#quiz-publish-link,
+#preview_quiz_button,
+#discussion-toolbar > div > div > div.discussion_subscribe.headerBar__subscribe > a.btn.topic-unsubscribe-button.btn-success,
+#quiz_show > div.header-bar > div > div.header-group-right > a,
+#quiz_show > div.header-bar > div > div.header-group-right > div > a,
 #content > div > span > span:nth-child(2) > div > div.cvphu_fsGh > span > button,
 #content > div > div > div.ic-Action-header > div.ic-Action-header__Secondary > div > a,
 body > div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable.ui-resizable.ui-dialog-buttons.compose-message-dialog > div.ui-dialog-buttonpane.ui-widget-content.ui-helper-clearfix > div:nth-child(2) > button.btn-primary.send-message.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only
@@ -134,6 +217,7 @@ body > div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable.ui-r
   border: 1px solid var(--canvas-primary-outline-color);
 }
 
+i[class*=icon-]:before, i[class^=icon-]:before, a[class*=icon-]:before, a[class^=icon-]:before,
 i[class*=icon-plus]:before, i[class^=icon-plus]:before, a[class*=icon-plus]:before, a[class^=icon-plus]:before,
 i[class*=icon-more]:before, i[class^=icon-more]:before, a[class*=icon-more]:before, a[class^=icon-more]:before,
 i[class*=icon-unpublish]:before, i[class^=icon-unpublish]:before, a[class*=icon-unpublish]:before, a[class^=icon-unpublish]:before,
@@ -159,11 +243,23 @@ i[class*=icon-announcement]:before, i[class^=icon-announcement]:before, a[class*
   color: var(--canvas-primary-text-color) !important;
 }
 
+[id^="entry-"] article > a > div
+{
+  color: var(--canvas-primary-text-color) !important;
+  background-color: var(--canvas-primary-text-color) !important;
+  border: 1px solid var(--canvas-primary-outline-color) !important;
+
+}
+
 [dir="ltr"] *
 {
   color: var(--canvas-primary-text-color) !important;
 }
 
+[dir="ltr"] .eoNrR_blJt
+{
+  background-color: var(--canvas-secondary-background-color) !important;
+}
 
 
 /* MEDIA PLAYER */
@@ -176,16 +272,16 @@ i[class*=icon-announcement]:before, i[class^=icon-announcement]:before, a[class*
 
 #edit_course_syllabus_form
 {
-  border: 1px solid var(--canvas-primary-text-color) !important;
+  border: 1px solid var(--canvas-primary-outline-color) !important;
   background-color: var(--canvas-secondary-background-color) !important;
   color: var(--canvas-primary-text-color) !important;
 }
 
 .dXATK_cAug
 {
-  border-top: 1px solid var(--canvas-primary-text-color) !important;
-  border-left: 1px solid var(--canvas-primary-text-color) !important;
-  border-right: 1px solid var(--canvas-primary-text-color) !important;
+  border-top: 1px solid var(--canvas-primary-outline-color) !important;
+  border-left: 1px solid var(--canvas-primary-outline-color) !important;
+  border-right: 1px solid var(--canvas-primary-outline-color) !important;
   border-bottom: none !important;
   background-color: var(--canvas-primary-button-color) !important;
   color: var(--canvas-primary-text-color) !important;
@@ -199,7 +295,7 @@ i[class*=icon-announcement]:before, i[class^=icon-announcement]:before, a[class*
 
 .cDwzl_cAug .cDwzl_caGd
 {
-  border: 1px solid var(--canvas-primary-text-color) !important;
+  border: 1px solid var(--canvas-primary-outline-color) !important;
   background-color: var(--canvas-secondary-background-color) !important;
   color: var(--canvas-primary-text-color) !important;
 }
@@ -292,7 +388,7 @@ svg path
 #calendar-app .fc-event,
 #calendar-app .fc-month-view .fc-today
 {
-  background-color: var(--canvas-primary-button-color) !important;
+  background-color: var(--canvas-secondary-button-color) !important;
   color: var(--canvas-primary-text-color) !important;
 }
 
@@ -393,7 +489,7 @@ span.day_number
   background-color: var(--canvas-primary-button-color) !important;
   color: var(--canvas-primary-text-color) !important;
   text-align: center !important;
-  border: 2px solid white !important;
+  border: 2px solid var(--canvas-primary-outline-color) !important;
   transition: background-color .2s !important;
 }
 
@@ -484,7 +580,7 @@ body.primary-nav-expanded .ic-app-header__menu-list-item.ic-app-header__menu-lis
 {
   background-color: var(--canvas-secondary-background-color) !important;
   color: var(--canvas-primary-text-color) !important;
-  border: 1px solid var(--canvas-primary-text-color) !important;
+  border: 1px solid var(--canvas-primary-outline-color) !important;
 }
 
 .ic-unread-badge__total-count
@@ -569,7 +665,7 @@ textarea.ic-Input
 .item-group-condensed .ig-header,
 .item-group-condensed .ig-row
 {
-  border: 1px solid var(--canvas-primary-text-color) !important;
+  border: 1px solid var(--canvas-primary-outline-color) !important;
   background-color: var(--canvas-secondary-background-color) !important;
 
 }
@@ -622,7 +718,9 @@ textarea.ic-Input
   border: 1px solid var(--canvas-primary-outline-color);
 }
 
-.ic-discussion-row
+.ic-discussion-row,
+.discussions-v2__container-image,
+.sJGfW_bGBk
 {
   background-color: var(--canvas-secondary-background-color) !important;
 }
@@ -747,6 +845,18 @@ table.summary td, table.summary tbody th,
   color: var(--canvas-primary-text-color) !important;
 }
 
+.alert
+{
+  background-color: var(--canvas-secondary-background-color) !important;
+  color: var(--canvas-primary-text-color) !important;
+  border: 1px solid var(--canvas-primary-outline-color) !important;
+}
+
+#quiz_show > div.header-bar
+{
+  border: none;
+}
+
 
 
 /* FORUM */
@@ -768,8 +878,9 @@ table.summary td, table.summary tbody th,
 
 i.icon-more.standalone-icon::before
 {
-  color: white !important;
+  color: var(--canvas-primary-text-color) !important;
 }
+
 label.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only
 {
   background-color: var(--canvas-primary-button-color) !important;
@@ -892,12 +1003,9 @@ div#course-filter-bs.dropdown-menu.open,
   display: none;
 }
 
-/* 
-span.fQfxa_eoCh svg, */
 .esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk.DashboardCardMenu__MovementIcon,
 #ColorPicker__Apply,
 .fOyUs_bGBk.fOyUs_dnJm.fOyUs_tIxX.fOyUs_EMjX.fOyUs_kXoP.fOyUs_UeJS.fOyUs_bxuL.dqmEK_caGd,
-.sJGfW_bGBk,
 .cAqHo_eAjd,
 .fCrpb_bGBk .fCrpb_egrg,
 #tab-uxeYgDafenmT
@@ -926,4 +1034,25 @@ span.fQfxa_eoCh svg, */
 #discussion_topic > div.discussion-entry-reply-area.reply-box-container.hide-if-collapsed.hide-if-replying > a
 {
   color: gray !important;
+}
+
+
+#week
+{
+  background-color: var(--canvas-primary-button-color) !important;
+  color: var(--canvas-primary-text-color) !important;
+  border: 1px solid var(--canvas-primary-outline-color) !important;
+}
+
+pre,
+[dir="ltr"] * pre
+{
+  background-color: var(--canvas-primary-pre-color) !important;
+  color: var(--canvas-primary-pre-text-color) !important;
+}
+
+.ig-list .ig-row.ig-published:not(.student-view):before
+{
+  background-color: var(--canvas-primary-outline-color) !important;
+  border: 1px solid var(--canvas-primary-pre-color) !important;
 }
