@@ -1,3 +1,55 @@
+:root
+{
+  --ic-link-color: var(--canvas-primary-text-color) !important;
+  --ic-brand-primary: var(--canvas-primary-background-color) !important;
+  --ic-brand-primary-darkened-5: var(--canvas-primary-background-color) !important;
+  --ic-brand-primary-darkened-10: var(--canvas-primary-background-color) !important;
+  --ic-brand-primary-darkened-15: var(--canvas-primary-background-color) !important;
+  --ic-brand-primary-lightened-5: var(--canvas-primary-background-color) !important;
+  --ic-brand-primary-lightened-10: var(--canvas-primary-background-color) !important;
+  --ic-brand-primary-lightened-15: var(--canvas-primary-background-color) !important;
+  --ic-brand-button--primary-bgd-darkened-5: var(--canvas-primary-background-color) !important;
+  --ic-brand-button--primary-bgd-darkened-15: var(--canvas-primary-background-color) !important;
+  --ic-brand-button--secondary-bgd-darkened-5: var(--canvas-primary-background-color) !important;
+  --ic-brand-button--secondary-bgd-darkened-15: var(--canvas-primary-background-color) !important;
+  --ic-brand-font-color-dark-lightened-15: var(--canvas-primary-text-color) !important;
+  --ic-brand-font-color-dark-lightened-30: var(--canvas-primary-text-color) !important;
+  --ic-link-color-darkened-10: var(--canvas-primary-text-color) !important;
+  --ic-link-color-lightened-10: var(--canvas-primary-text-color) !important;
+  --ic-brand-font-color-dark: var(--canvas-primary-text-color) !important;
+  --ic-brand-button--primary-bgd: var(--canvas-primary-button-color) !important;
+  --ic-brand-button--primary-text: var(--canvas-primary-text-color) !important;
+  --ic-brand-button--secondary-bgd: var(--canvas-primary-button-color) !important;
+  --ic-brand-button--secondary-text: var(--canvas-primary-text-color) !important;
+  --ic-brand-global-nav-bgd: var(--canvas-primary-background-color) !important;
+  --ic-brand-global-nav-ic-icon-svg-fill: var(--canvas-primary-text-color) !important;
+  --ic-link-color-darkened-10: var(--canvas-primary-text-color) !important;
+  --ic-brand-global-nav-ic-icon-svg-fill--active: var(--canvas-primary-background-color) !important;
+  --ic-brand-global-nav-menu-item__text-color: var(--canvas-primary-text-color) !important;
+  --ic-brand-global-nav-menu-item__text-color--active: var(--canvas-primary-background-color) !important;
+  --ic-brand-global-nav-avatar-border: var(--canvas-primary-text-color) !important;
+  --ic-brand-global-nav-menu-item__badge-bgd: var(--canvas-primary-background-color) !important;
+  --ic-brand-global-nav-menu-item__badge-text: var(--canvas-primary-text-color) !important;
+  --ic-brand-global-nav-logo-bgd: var(--canvas-primary-background-color) !important;
+
+  --sJGfW-activeBackground: var(--canvas-primary-text-color) !important;
+  --cjUyb-brandColor: var(--canvas-primary-text-color) !important;
+  --esvoZ-brandColor: var(--canvas-primary-text-color) !important;
+  --fOyUs-borderColorBrand: var(--canvas-primary-text-color) !important;
+  --fOyUs-borderColorInfo: var(--canvas-primary-text-color) !important;
+  --fOyUs-backgroundBrand: var(--canvas-primary-text-color) !important;
+  --fOyUs-backgroundInfo: var(--canvas-primary-text-color) !important;
+  --fOyUs-focusColorInfo: var(--canvas-primary-text-color) !important;
+  --eHiXd-focusBorder: var(--canvas-primary-text-color) !important;
+  --eHiXd-ghostBorderColor: var(--canvas-primary-text-color) !important;
+  --eHiXd-ghostColor: var(--canvas-primary-text-color) !important;
+  --eHiXd-linkColor: var(--canvas-primary-text-color) !important;
+  --eHiXd-linkFocusBorderColor: var(--canvas-primary-text-color) !important;
+  --eHiXd-linkHoverColor: var(--canvas-primary-text-color) !important;
+  --ukYnPGuDCLHV-primaryGhostColor: var(--canvas-primary-text-color) !important;
+  --ukYnPGuDCLHV-primaryGhostBorderColor: var(--canvas-primary-text-color) !important;
+  --cAqHo-focusBorderColor: var(--canvas-primary-text-color) !important;
+}
 
 /* HTB 1 */
 /* :root
@@ -10,6 +62,7 @@
   --canvas-primary-outline-color: #a4b1cd;
   --canvas-primary-pre-color: #141d2b;
   --canvas-primary-pre-text-color: #66D9EF;
+  --canvas-primary-focus-color: none;
 } */
 
 /* DRACULA */
@@ -23,6 +76,7 @@
   --canvas-primary-outline-color: #6272a4;
   --canvas-primary-pre-color: #f8f8f2;
   --canvas-primary-pre-text-color: #282a36;
+  --canvas-primary-focus-color: none;
 } */
 
 /* ZENBUM */
@@ -36,6 +90,9 @@
   --canvas-primary-outline-color: #ffcfaf;
   --canvas-primary-pre-color: #333333;
   --canvas-primary-pre-text-color: #dcdccc;
+  --canvas-primary-focus-color: none;
+ 
+  --ic-brand-global-nav-menu-item__text-color: white !important;
 }
 
 /* ORIGINAL */
@@ -49,6 +106,7 @@
   --canvas-primary-outline-color: #C7CDD1;
   --canvas-primary-pre-color: #303030;
   --canvas-primary-pre-text-color: #9fef00;
+  --canvas-primary-focus-color: none;
 } */
 
 /* MONOKAI */
@@ -62,8 +120,8 @@
   --canvas-primary-outline-color: #75715E;
   --canvas-primary-pre-color: #272822;
   --canvas-primary-pre-text-color: #66D9EF;
+  --canvas-primary-focus-color: none;
 } */
-
 
 html,
 body,
@@ -83,7 +141,8 @@ a.ic-app-header__logomark
 }
 
 .pages.show .page-title,
-.ig-header .ig-header-title
+.ig-header .ig-header-title,
+.ic-DashboardCard__action-badge
 {
   color: var(--canvas-primary-text-color) !important;
 }
@@ -197,6 +256,7 @@ body > div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable.ui-r
 #add-group-set,
 #quiz-publish-link,
 #preview_quiz_button,
+#external_feed,
 #discussion-toolbar > div > div > div.discussion_subscribe.headerBar__subscribe > a.btn.topic-unsubscribe-button.btn-success,
 #quiz_show > div.header-bar > div > div.header-group-right > a,
 #quiz_show > div.header-bar > div > div.header-group-right > div > a,
@@ -235,24 +295,33 @@ i[class*=icon-announcement]:before, i[class^=icon-announcement]:before, a[class*
   color: var(--canvas-primary-text-color) !important;
 }
 
+[id^="result-"] *
+{
+  color: var(--canvas-primary-text-color) !important;
+}
+
 [id^="entry-"] article > a > div
 {
   color: var(--canvas-primary-text-color) !important;
   background-color: var(--canvas-primary-text-color) !important;
   border: 1px solid var(--canvas-primary-outline-color) !important;
-
 }
 
 [dir="ltr"] *:not(.course-color-block),
 [dir="ltr"] *:not(.span.ic-unread-badge__count.ic-unread-badge__total-count)
-
 {
   color: var(--canvas-primary-text-color) !important;
+}
+
+[dir="ltr"] .cnWSA_bcSS
+{
+  background-color: var(--canvas-primary-text-color) !important;
 }
 
 [dir="ltr"] .eoNrR_blJt
 {
   background-color: var(--canvas-secondary-background-color) !important;
+  color: var(--canvas-primary-text-color) !important;
 }
 
 
@@ -305,9 +374,15 @@ body > div:nth-child(6) > div.ui-dialog-titlebar.ui-widget-header.ui-corner-all.
   color: var(--canvas-primary-text-color) !important;
 }
 
-a
+a,
+button
 {
   color: var(--canvas-primary-text-color) !important;
+  text-decoration-color: var(--canvas-primary-text-color);
+}
+button:focus
+{
+  box-shadow: inset 0 0 0 2px var(--canvas-primary-focus-color) !important;
 }
 
 header,
@@ -350,7 +425,8 @@ svg path
 .feature-title,
 .feature-details p,
 .event-details-timestring,
-.discussion-fyi
+.discussion-fyi,
+.sJGfW_blJt
 {
   color: var(--canvas-primary-text-color) !important;
 }
@@ -518,10 +594,14 @@ span.day_number
 .ic-DashboardCard__header-subtitle,
 .ic-DashboardCard__header-term,
 .event-details__title,
-.event-details p,
-body.primary-nav-expanded .ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .menu-item__text
+.event-details p
 {
   color: var(--canvas-primary-text-color) !important;
+}
+
+body.primary-nav-expanded .ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .menu-item__text
+{
+  color: var(--ic-brand-global-nav-menu-item__text-color) !important;
 }
 
 .unpublished_courses_redesign .ic-DashboardCard__box__header,
@@ -947,6 +1027,11 @@ div#course-filter-bs.dropdown-menu.open,
 {
   background-color: var(--canvas-primary-button-color) !important;
   color: var(--canvas-primary-text-color) !important;
+}
+
+#search-autocomplete > div.ac-input-box
+{
+  border: 1px solid var(--canvas-primary-outline-color) !important;
 }
 
 
