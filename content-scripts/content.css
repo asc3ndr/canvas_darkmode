@@ -1,14 +1,3 @@
-/* 
- HTB green #9fef00
- Hacker grey #a4b1cd
- Node black #141d2b
-
- Malware red #ff3e3e
- Azure #0086ff
- Vivid purple #9f00ff
- Nugget yellow #ffaf00
- Aquamarine #2ee7b6
-*/
 
 /* HTB 1 */
 /* :root
@@ -23,18 +12,31 @@
   --canvas-primary-pre-text-color: #66D9EF;
 } */
 
-/* HTB 2 */
+/* DRACULA */
 /* :root
 {
-  --canvas-primary-background-color: #0c111a;
-  --canvas-secondary-background-color: #141d2b;
-  --canvas-primary-text-color: white;
-  --canvas-primary-button-color: #141d2b;
-  --canvas-secondary-button-color: #0c111a;
-  --canvas-primary-outline-color: #9fef00;
-  --canvas-primary-pre-color: #0c111a;
-  --canvas-primary-pre-text-color: #9fef00;
+  --canvas-primary-background-color: #282a36;
+  --canvas-secondary-background-color: #44475a;
+  --canvas-primary-text-color: #bd93f9;
+  --canvas-primary-button-color: #44475a;
+  --canvas-secondary-button-color: #282a36;
+  --canvas-primary-outline-color: #6272a4;
+  --canvas-primary-pre-color: #f8f8f2;
+  --canvas-primary-pre-text-color: #282a36;
 } */
+
+/* ZENBUM */
+:root
+{
+  --canvas-primary-background-color: #333333;
+  --canvas-secondary-background-color: #3f3f3f;
+  --canvas-primary-text-color: #f0dfaf;
+  --canvas-primary-button-color: #3f3f3f;
+  --canvas-secondary-button-color: #333333;
+  --canvas-primary-outline-color: #ffcfaf;
+  --canvas-primary-pre-color: #333333;
+  --canvas-primary-pre-text-color: #dcdccc;
+}
 
 /* ORIGINAL */
 /* :root
@@ -50,7 +52,7 @@
 } */
 
 /* MONOKAI */
-:root
+/* :root
 {
   --canvas-primary-background-color: #272822;
   --canvas-secondary-background-color: #1f201b;
@@ -60,19 +62,8 @@
   --canvas-primary-outline-color: #75715E;
   --canvas-primary-pre-color: #272822;
   --canvas-primary-pre-text-color: #66D9EF;
-}
+} */
 
-/* Background	#272822 
-Foreground	#F8F8F2 
-Comment	#75715E 
-Red	#F92672 
-Orange	#FD971F 
-Light Orange	#E69F66
-Yellow	#E6DB74 
-Green	#A6E22E 
-Blue	#66D9EF 
-Purple #AE81FF
-*/
 
 html,
 body,
@@ -146,6 +137,7 @@ button.element_toggler,
 #nav-tray-portal > span > span > div > div > div > div > div > span > form > button::before,
 #month,
 #agenda,
+#search-btn,
 #course_show_secondary > a,
 #course_show_secondary > div > a,
 #create_new_event_link,
@@ -251,7 +243,9 @@ i[class*=icon-announcement]:before, i[class^=icon-announcement]:before, a[class*
 
 }
 
-[dir="ltr"] *
+[dir="ltr"] *:not(.course-color-block),
+[dir="ltr"] *:not(.span.ic-unread-badge__count.ic-unread-badge__total-count)
+
 {
   color: var(--canvas-primary-text-color) !important;
 }
@@ -335,7 +329,7 @@ svg path
 
 .list-view a.active
 {
-  border-left: 2px solid var(--canvas-primary-outline-color) !important;
+  border-left: 2px solid var(--canvas-primary-pre-text-color) !important;
 }
 
 
@@ -652,7 +646,8 @@ textarea.ic-Input
 
 /* COURSES MODULES */
 #context_modules,
-.item-group-container
+.item-group-container,
+#wiki_page_show > div.show-content.user_content.clearfix.enhanced > table > tbody > tr:nth-child(1) > td
 {
   background-color: var(--canvas-primary-background-color) !important;
 }
@@ -906,7 +901,8 @@ label.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only
 
 /* INBOX */
 #content > div > div > div.message-list-scroller > div > ul > li,
-.message-header
+.message-header,
+#content > div > header > div.panel__primary > div > div.btn-group.bootstrap-select.course-filter.show-tick > button
 {
   background-color: var(--canvas-primary-background-color) !important;
 }
@@ -916,7 +912,8 @@ body.responsive_awareness .message-detail.span8, body.responsive_awareness .mess
 .message-list .message-count,
 #compose-new-message .conversation_body, #compose-new-message .reply_body, #submission-comment-reply .conversation_body, #submission-comment-reply .reply_body,
 .message-header-row .ac-input-box,
-.ac-result-container
+.ac-result-container,
+#search-autocomplete > div.ac-input-box
 {
   background-color: var(--canvas-secondary-background-color) !important;
 }
@@ -925,7 +922,8 @@ body.responsive_awareness .message-detail.span8, body.responsive_awareness .mess
 .message-list .author,
 .message-list .subject,
 .message-list .summary,
-.message-detail.conversations__message-detail .user-info .context
+.message-detail.conversations__message-detail .user-info .context,
+.bootstrap-select.btn-group .btn .filter-option
 {
   color: var(--canvas-primary-text-color) !important;
 }
@@ -938,7 +936,7 @@ input.dropdown-search,
 .dropdown-menu .divider,
 div#course-filter-bs.dropdown-menu.open,
 .btn-group.open .dropdown-toggle,
-.btn-group>.btn:first-child,
+/* .btn-group>.btn:first-child    <--- THIS BREAKS THE REPLY BUTTON IN INBOX */
 .compose-message-dialog .ui-dialog-buttonpane, .submission-comment-reply-dialog .ui-dialog-buttonpane
 {
   background-color: var(--canvas-primary-background-color) !important;
@@ -1054,5 +1052,5 @@ pre,
 .ig-list .ig-row.ig-published:not(.student-view):before
 {
   background-color: var(--canvas-primary-outline-color) !important;
-  border: 1px solid var(--canvas-primary-pre-color) !important;
+  border: 1px solid var(--canvas-primary-pre-text-color) !important;
 }
