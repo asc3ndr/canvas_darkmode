@@ -72,7 +72,7 @@
   --uG6GeYaVV7ZG-primaryBackground:  var(--darkmode-primary-background-color) !important;
   --uG6GeYaVV7ZG-primaryHoverBackground:  var(--darkmode-secondary-background-color) !important;
   --uG6GeYaVV7ZG-primaryActiveBackground:  var(--darkmode-secondary-background-color) !important;
-  --uG6GeYaVV7ZG-primaryActiveBoxShadow:  inset 0 0 0.1875rem 0.0625rem  var(--darkmode-primary-background-color) !important;;
+  --uG6GeYaVV7ZG-primaryActiveBoxShadow:  inset 0 0 0.1875rem 0.0625rem  var(--darkmode-primary-background-color) !important;
   --uG6GeYaVV7ZG-primaryGhostColor:  var(--darkmode-primary-background-color) !important;
   --uG6GeYaVV7ZG-primaryGhostBorderColor:  var(--darkmode-primary-outline-color) !important;
 
@@ -81,7 +81,7 @@
   --uG6GeYaVV7ZG-secondaryBackground: var(--darkmode-secondary-background-color) !important;
   --uG6GeYaVV7ZG-secondaryHoverBackground: var(--darkmode-primary-background-color) !important;
   --uG6GeYaVV7ZG-secondaryActiveBackground: var(--darkmode-primary-background-color) !important;
-  --uG6GeYaVV7ZG-secondaryActiveBoxShadow:  inset 0 0 0.1875rem 0.0625rem var(--darkmode-secondary-outline-color) !important;;
+  --uG6GeYaVV7ZG-secondaryActiveBoxShadow:  inset 0 0 0.1875rem 0.0625rem var(--darkmode-secondary-outline-color) !important;
   --uG6GeYaVV7ZG-secondaryGhostColor: var(--darkmode-primary-background-color) !important;
   --uG6GeYaVV7ZG-secondaryGhostBorderColor: var(--darkmode-primary-background-color) !important;
 
