@@ -7,4 +7,4 @@ The stylesheet has support for different themes, however this function is not im
 # Google Web Store extension
 The project has been published as unlisted on Google Web Store, which means you won't find it normally, but for those who would like to give it a try here is the link:
 
-https://chrome.google.com/webstore/detail/canvas-dark-mode/ngnonocnbknhdklgbdnbpmbdaiekojlm/related?hl=en&authuser=0
+https://chrome.google.com/webstore/detail/canvas-dark-mode/ngnonocnbknhdklgbdnbpmbdaiekojlm?hl=en&authuser=0
