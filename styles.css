@@ -1,5 +1,5 @@
-#invalidID {
-  --only_for: "git_upadte";
+#updated_by {
+  --SF: "20200909";
 }
 
 @import url("font_FiraCode.css");
