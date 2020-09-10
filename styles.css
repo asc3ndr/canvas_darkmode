@@ -1,8 +1,8 @@
 #updated_by {
-  --SF: "202009";
+  --SF: "202010";
 }
 
-@import url("font_FiraCode.css");
+@import url("font.css");
 @import url("root.css");
 @import url("colors.css");
 @import url("zoom.css");

@@ -38,7 +38,7 @@
   --darkmode-primary-pre-text-color: #282a36;
   --darkmode-primary-focus-color: none;
   --darkmode-subtext-color: #666666;
-  --darkmode-font-family: 'Fira Code', monospace !important;
+  --darkmode-font-family: 'Inconsolata', monospace !important;
   --darkmode-font-size: 99%;
   --darkmode-minical-event: rgba(255, 255, 255, 0.15);
   --darkmode-overlay: rgba(0, 0, 0, 0.5);
@@ -116,7 +116,7 @@
   --darkmode-primary-pre-text-color: #dcdccc;
   --darkmode-primary-focus-color: none;
   --darkmode-subtext-color: rgba(255, 207, 175, 0.5);
-  --darkmode-font-family: LatoWeb, Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --darkmode-font-family: 'Inconsolata', monospace;
   --darkmode-font-size: 1em;
   --darkmode-minical-event: rgba(0, 0, 0, 0.5);
   --darkmode-overlay: rgba(51, 51, 51, 0.7);
