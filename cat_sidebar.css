@@ -1,0 +1,21 @@
+/* SIDEBAR CONTENT */
+
+#sidebar_content td.mini_calendar_day.today,
+#sidebar_content td.mini_calendar_day.today .day_number,
+#sidebar_content td.mini_calendar_day.related,
+#sidebar_content td.mini_calendar_day.related .day_number {
+  background-color: transparent !important;
+  color: var(--darkmode-secondary-link-color) !important;
+}
+
+#sidebar_content .mini_calendar_day.day:hover {
+  background-image: none !important;
+}
+
+#sidebar_content td.current_month .day_number {
+  color: var(--darkmode-primary-text-color);
+}
+
+#sidebar_content td.mini_calendar_day.has_event {
+  background-color: var(--darkmode-minical-event) !important;
+}

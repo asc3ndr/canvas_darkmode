@@ -1,46 +1,40 @@
 html,
-body 
-{
-    color: white;
-    text-align: center;
-    background-color: #404040;
-    overscroll-behavior-y: none;
-    font-family: 'VT323', monospace;
+body {
+  color: white;
+  text-align: center;
+  background-color: #404040;
+  overscroll-behavior-y: none;
+  font-family: "VT323", monospace;
 }
 
-p 
-{
-    color: #fff;
-    font-size: 22px;
-    text-align: center;
+p {
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
 }
 
-a
-{
-    color: #ff79c6;
+a {
+  color: #ff79c6;
 }
 
 img {
-    pointer-events: none;
+  pointer-events: none;
 }
 
-.blocked
-{
-    -ms-user-select: none;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -webkit-touch-callout: none;
+.blocked {
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
 }
 
-.overflow-hidden
-{
-    overflow: hidden;
+.overflow-hidden {
+  overflow: hidden;
 }
 
-#browser-action
-{
-    width: 250px;
-    height: 100%;
-    margin-bottom: 20px;
+#browser-action {
+  width: 250px;
+  height: 100%;
+  margin-bottom: 20px;
 }

@@ -1,0 +1,36 @@
+/* ACCOUNT */
+
+#notification-preferences table thead th {
+  background-color: var(--darkmode-primary-background-color) !important;
+}
+
+#notification-preferences table,
+#notification-preferences table thead,
+#notification-preferences table tbody,
+#notification-preferences table tr,
+#notification-preferences table td,
+#notification-preferences table th {
+  border-color: var(--darkmode-primary-outline-color) !important;
+}
+
+[id^="hints_"] {
+  color: var(--darkmode-subtext-color) !important;
+}
+
+#access_tokens_holder * {
+  background-color: inherit !important;
+  border-color: var(--darkmode-primary-outline-color) !important;
+}
+
+#access_tokens .used.nobr,
+#access_tokens .expires.nobr {
+  color: var(--darkmode-datetime-color) !important;
+}
+
+#content .feature-flags {
+  border-color: var(--darkmode-primary-outline-color) !important;
+}
+
+#content .feature-flags [class$="-title"] {
+  color: var(--darkmode-primary-text-color) !important;
+}

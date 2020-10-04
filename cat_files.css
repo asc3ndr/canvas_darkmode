@@ -1,0 +1,27 @@
+/* FILES */
+
+#content .FileUpload.FileUpload__full div {
+  background-color: var(--darkmode-secondary-background-color);
+}
+
+#content .FileUpload.FileUpload__full .ftPBL_elxg span {
+  color: var(--darkmode-primary-link-color);
+  text-decoration: var(--darkmode-secondary-text-decoration) !important;
+  text-decoration-color: var(--darkmode-primary-link-color) !important;
+}
+
+#content .FileUpload.FileUpload__full .ftPBL_elxg span:hover {
+  color: var(--darkmode-secondary-link-color);
+  text-decoration: var(--darkmode-secondary-text-decoration) !important;
+  text-decoration-color: var(--darkmode-secondary-link-color) !important;
+}
+
+#content .FileUpload.FileUpload__full > div > label > span:hover {
+  border-color: var(--darkmode-primary-outline-color) !important;
+}
+
+#content .ef-header > form > input {
+  color: var(--darkmode-primary-text-color) !important;
+  border: 1px solid var(--darkmode-primary-outline-color) !important;
+  background-color: var(--darkmode-secondary-background-color) !important;
+}

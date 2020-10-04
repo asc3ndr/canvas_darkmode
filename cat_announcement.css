@@ -1,0 +1,41 @@
+/* ANNOUNCEMENTS */
+
+#content.ic-Layout-contentMain .headerBar,
+#content.ic-Layout-contentMain .discussion_entry,
+#content.ic-Layout-contentMain .bottom-reply-with-box {
+  background-color: var(--darkmode-secondary-background-color) !important;
+}
+
+#content span.ic-unread-badge {
+  border: 1px solid var(--darkmode-badge-outline-color) !important;
+  background-color: transparent !important;
+}
+
+#content .ic-unread-badge__count.ic-unread-badge__unread-count {
+  background-color: var(--darkmode-primary-badge-color) !important;
+  color: var(--darkmode-primary-badge-text-color);
+  border-right: 1px solid var(--darkmode-badge-outline-color) !important;
+}
+
+#content .ic-unread-badge__count.ic-unread-badge__total-count {
+  background-color: var(--darkmode-secondary-badge-color) !important;
+  color: var(--darkmode-secondary-badge-text-color);
+}
+
+#content .ic-item-row__meta-content-timestamp p {
+  color: var(--darkmode-datetime-color) !important;
+}
+
+#content
+  .ic-section-tooltip
+  button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_brAJ.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS {
+  background-color: transparent !important;
+  color: var(--darkmode-secondary-link-color) !important;
+}
+
+#content
+  .ic-section-tooltip
+  button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_brAJ.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover {
+  background-color: transparent !important;
+  color: var(--darkmode-secondary-button-text-color) !important;
+}
