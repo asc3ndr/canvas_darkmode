@@ -23,3 +23,7 @@
 .student-groups .student-group-students {
   color: inherit !important;
 }
+
+div.ic-notification__content {
+  background: var(--ic-brand-button--primary-bgd);
+}
