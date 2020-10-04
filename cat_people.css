@@ -27,3 +27,8 @@
 div.ic-notification__content {
   background: var(--ic-brand-button--primary-bgd);
 }
+
+.student-group-join a[aria-label^="Forlate"],
+.student-group-join a[aria-label^="Leave"] {
+  color: #50fa7b;
+}
