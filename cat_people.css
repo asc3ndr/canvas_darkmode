@@ -12,3 +12,14 @@
 .cxVYj_bGBk * {
   color: var(--darkmode-primary-text-color);
 }
+
+/*GROUPS*/
+
+#main .student-groups.show-body .student-group-header {
+  background-color: var(--ic-brand-button--primary-bgd);
+  color: #fff;
+}
+
+.student-groups .student-group-students {
+  color: inherit !important;
+}
