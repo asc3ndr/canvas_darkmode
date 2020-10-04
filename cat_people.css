@@ -1,0 +1,14 @@
+/* PEOPLE */
+
+.ic-Table.ic-Table--striped tbody tr {
+  background: var(--darkmode-primary-background-color) !important;
+  color: var(--darkmode-primary-text-color);
+}
+
+.ic-Table.ic-Table--striped tbody tr:hover {
+  background: var(--darkmode-secondary-background-color) !important;
+}
+
+.cxVYj_bGBk * {
+  color: var(--darkmode-primary-text-color);
+}

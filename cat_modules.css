@@ -1,0 +1,45 @@
+/* MODULES */
+
+#context_modules {
+  background-color: var(--darkmode-primary-background-color);
+}
+
+#content #context_modules_sortable_container.item-group-container {
+  background-color: var(--darkmode-primary-background-color);
+}
+
+[id^="context_module_"] .ig-header {
+  color: var(--darkmode-secondary-text-color) !important;
+  background-color: var(--darkmode-primary-header-color) !important;
+  border: 1px solid var(--darkmode-primary-outline-color) !important;
+}
+
+[id^="context_module_"] .ig-header .name {
+  color: var(--darkmode-primary-button-text-color) !important;
+}
+
+[id^="context_module_"] .ig-list .ig-row {
+  color: var(--darkmode-primary-link-color) !important;
+}
+
+[id^="context_module_"] .ig-details__item {
+  color: var(--darkmode-primary-text-color) !important;
+}
+
+[id^="context_module_"] .ig-header .name:hover {
+  color: var(--darkmode-secondary-text-color) !important;
+}
+
+[id^="context_module_"] .ig-header-title.expand_module_link.ellipsis:focus {
+  border: none !important;
+}
+
+[id^="context_module_"] .ig-row {
+  background-color: var(--darkmode-secondary-background-color) !important;
+  border: 1px solid var(--darkmode-primary-outline-color) !important;
+}
+
+.ui-widget-content .ui-icon {
+  background-color: transparent !important;
+  background-image: var(--darkmode-jquery-icon-color) !important;
+}

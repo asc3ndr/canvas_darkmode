@@ -1,0 +1,24 @@
+/* GRADEBOOK */
+
+.gradebook-menus button {
+  background-color: var(--darkmode-secondary-background-color) !important;
+  color: var(--darkmode-primary-text-color);
+}
+
+.gradebook-menus button:hover {
+  background-color: var(--darkmode-primary-background-color) !important;
+  color: var(--darkmode-secondary-text-color);
+  text-decoration: none !important;
+}
+
+.gradebook-menus button:hover span {
+  color: var(--darkmode-secondary-text-color);
+}
+
+[class^="slickgrid_"] .slick-cell {
+  background-color: var(--darkmode-primary-background-color) !important;
+}
+
+[class^="slickgrid_"] .slick-cell .gradebook-cell {
+  background-color: var(--darkmode-secondary-background-color) !important;
+}
