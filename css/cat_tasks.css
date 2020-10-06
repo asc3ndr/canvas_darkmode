@@ -1,0 +1,20 @@
+/* TASKS */
+
+#content .header-bar .fNHEA_cSXm,
+#content .header-bar .fNHEA_b0nW {
+  background: none !important;
+  box-shadow: none !important;
+}
+
+#content .header-bar .fNHEA_blJt {
+  color: var(--darkmode-primary-link-color) !important;
+  text-decoration: var(--darkmode-primary-text-decoration);
+  text-decoration-color: var(--darkmode-primary-link-color);
+  text-decoration-style: var(--darkmode-primary-text-decoration-style);
+}
+
+#content .header-bar .fNHEA_blJt:hover {
+  color: var(--darkmode-secondary-link-color) !important;
+  text-decoration-color: var(--darkmode-secondary-link-color);
+  text-decoration-style: var(--darkmode-secondary-text-decoration-style);
+}

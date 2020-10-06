@@ -1,0 +1,57 @@
+/* ASSIGNMENT */
+
+#ag-list {
+  background-color: var(--darkmode-primary-background-color);
+}
+
+[id^="assignment_"] .ig-header {
+  color: var(--darkmode-primary-text-color) !important;
+  background-color: var(--darkmode-primary-header-color) !important;
+  border: 1px solid var(--darkmode-primary-outline-color) !important;
+}
+
+[id^="assignment_"] .ig-row {
+  background-color: var(--darkmode-secondary-background-color) !important;
+  border: 1px solid var(--darkmode-primary-outline-color) !important;
+}
+
+[id^="assignment_"] .ig-details__item,
+[id^="assignment_"] .ig-details__item .status-description {
+  color: var(--darkmode-primary-text-color) !important;
+}
+
+[id^="assignment_"] .ig-details__item.assignment-date-available span {
+  color: var(--darkmode-datetime-color) !important;
+}
+
+[id^="assignment_"] .ig-details__item.assignment-date-due span {
+  color: var(--darkmode-datetime-color) !important;
+}
+
+[id^="assignment_"] button.element_toggler,
+/* This causes issues */
+
+[id^="assignment_"] button.accessible-toggler
+/* This causes issues */ {
+  color: var(--darkmode-primary-button-text-color) !important;
+  background-color: transparent !important;
+}
+
+[id^="assignment_"] button.element_toggler:hover,
+/* This causes issues */
+
+[id^="assignment_"] button.accessible-toggler:hover
+/* This causes issues */ {
+  color: var(--darkmode-secondary-button-text-color) !important;
+}
+
+.submission-details-comments .comments {
+  background-color: var(--darkmode-primary-background-color);
+}
+.submission-details-comments .comment {
+  color: #fff !important;
+}
+
+.submission-details-frame iframe {
+  filter: invert(1) hue-rotate(75deg);
+}

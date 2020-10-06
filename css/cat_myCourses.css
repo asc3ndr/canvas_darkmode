@@ -1,0 +1,6 @@
+/* MY COURSES TABLE */
+
+#past_enrollments_table .course-list-table-row:hover,
+#my_courses_table .course-list-table-row:hover {
+  background-color: var(--darkmode-secondary-background-color) !important;
+}

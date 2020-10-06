@@ -1,0 +1,163 @@
+/* DRACULA */
+/* 
+    #50fa7b GREEN 
+    #8be9fd CYAN
+*/
+:root {
+  --jquerySprite: url("icons/ui-icons_ffffff_256x240.png");
+}
+
+:root {
+  --darkmode-primary-header-color: #282a36;
+  --darkmode-primary-badge-color: #ffffff;
+  --darkmode-primary-badge-text-color: #bd93f9;
+  --darkmode-secondary-badge-color: #bd93f9;
+  --darkmode-secondary-badge-text-color: #ffffff;
+  --darkmode-badge-outline-color: #6272a4;
+  --darkmode-focus-button-color: inset 0 0 0 2px var(--darkmode-primary-text-color) !important;
+  --darkmode-avatar-color: #6272a4;
+  --darkmode-jquery-icon-color: var(--jquerySprite) !important;
+  --darkmode-datetime-color: #50fa7b;
+  --darkmode-primary-link-color: #ffffff;
+  --darkmode-secondary-link-color: #ff79c6;
+  --darkmode-primary-text-decoration: none;
+  --darkmode-secondary-text-decoration: underline;
+  --darkmode-primary-text-decoration-style: solid;
+  --darkmode-secondary-text-decoration-style: solid;
+  --darkmode-primary-background-color: #282a36;
+  --darkmode-secondary-background-color: #44475a;
+  --darkmode-primary-text-color: #bd93f9;
+  --darkmode-secondary-text-color: #50fa7b;
+  --darkmode-primary-button-color: #44475a;
+  --darkmode-secondary-button-color: #282a36;
+  --darkmode-primary-button-text-color: #ffffff;
+  --darkmode-secondary-button-text-color: #50fa7b;
+  --darkmode-primary-outline-color: #6272a4;
+  --darkmode-secondary-outline-color: #6272a4;
+  --darkmode-primary-pre-color: #f8f8f2;
+  --darkmode-primary-pre-text-color: #282a36;
+  --darkmode-primary-focus-color: none;
+  --darkmode-subtext-color: #666666;
+  --darkmode-font-family: "Inconsolata", monospace !important;
+  --darkmode-font-size: 99%;
+  --darkmode-minical-event: rgba(255, 255, 255, 0.15);
+  --darkmode-overlay: rgba(0, 0, 0, 0.5);
+}
+
+/* HackTheBox */
+/* :root
+{
+  --darkmode-primary-header-color: #0c111a;
+  --darkmode-primary-badge-color: #ffffff;
+  --darkmode-primary-badge-text-color: #141d2b;
+  --darkmode-secondary-badge-color: #141d2b;
+  --darkmode-secondary-badge-text-color: #ffffff;
+  --darkmode-badge-outline-color: #ffffff;
+  --darkmode-focus-button-color: inset 0 0 0 2px var(--darkmode-primary-text-color) !important;
+  --darkmode-avatar-color: #a4b1cd;
+  --darkmode-jquery-icon-color: var(--jquerySprite) !important;
+  --darkmode-datetime-color: #9fef00;
+  --darkmode-primary-link-color: #ffffff;
+  --darkmode-secondary-link-color: #9fef00;
+  --darkmode-primary-text-decoration: none;
+  --darkmode-secondary-text-decoration: underline;
+  --darkmode-primary-text-decoration-style: solid;
+  --darkmode-secondary-text-decoration-style: solid;
+  --darkmode-primary-background-color: #141d2b;
+  --darkmode-secondary-background-color: #0c111a;
+  --darkmode-primary-text-color: #ffffff;
+  --darkmode-secondary-text-color: #a4b1cd;
+  --darkmode-primary-button-text-color: #ffffff;
+  --darkmode-secondary-button-text-color: #9fef00;
+  --darkmode-primary-button-color: #0c111a;
+  --darkmode-secondary-button-color: #141d2b;
+  --darkmode-primary-outline-color: #a4b1cd;
+  --darkmode-secondary-outline-color: #a4b1cd;
+  --darkmode-primary-pre-color: #141d2b;
+  --darkmode-primary-pre-text-color: #9fef00;
+  --darkmode-primary-focus-color: none;
+  --darkmode-subtext-color: #666666;
+  --darkmode-font-family: 'VT323', monospace !important;
+  --darkmode-font-size: 99%;
+  --darkmode-minical-event: rgba(255, 255, 255, 0.15);
+  --darkmode-overlay: rgba(0,0,0,0.5);
+} */
+
+/* ZENBUM */
+/* :root
+{
+  --darkmode-primary-header-color: #333333;
+  --darkmode-primary-badge-color: #333333;
+  --darkmode-primary-badge-text-color: #ffffff;
+  --darkmode-secondary-badge-color: #3f3f3f;
+  --darkmode-secondary-badge-text-color: #ffffff;
+  --darkmode-badge-outline-color: #ffcfaf;
+  --darkmode-focus-button-color: inset 0 0 0 2px var(--darkmode-primary-text-color) !important;
+  --darkmode-avatar-color: #ffcfaf;
+  --darkmode-jquery-icon-color: var(--jquerySprite) !important;
+  --darkmode-datetime-color: #ffcfaf;
+  --darkmode-primary-link-color: #fff1ca;
+  --darkmode-secondary-link-color: #ffffff;
+  --darkmode-primary-text-decoration: none;
+  --darkmode-secondary-text-decoration: underline;
+  --darkmode-primary-text-decoration-style: solid;
+  --darkmode-secondary-text-decoration-style: solid;
+  --darkmode-primary-background-color: #333333;
+  --darkmode-secondary-background-color: #3f3f3f;
+  --darkmode-primary-text-color: #f0dfaf;
+  --darkmode-secondary-text-color: #666666;
+  --darkmode-primary-button-color: #3f3f3f;
+  --darkmode-secondary-button-color: #333333;
+  --darkmode-primary-button-text-color: #ffffff;
+  --darkmode-secondary-button-text-color: #ffcfaf;
+  --darkmode-primary-outline-color: #ffcfaf;
+  --darkmode-secondary-outline-color: #ffcfaf;
+  --darkmode-primary-pre-color: #333333;
+  --darkmode-primary-pre-text-color: #dcdccc;
+  --darkmode-primary-focus-color: none;
+  --darkmode-subtext-color: rgba(255, 207, 175, 0.5);
+  --darkmode-font-family: 'Inconsolata', monospace;
+  --darkmode-font-size: 1em;
+  --darkmode-minical-event: rgba(0, 0, 0, 0.5);
+  --darkmode-overlay: rgba(51, 51, 51, 0.7);
+  --ic-brand-global-nav-menu-item__text-color: #ffffff !important;
+} */
+
+/* ORIGINAL */
+/* :root
+{
+  --darkmode-primary-header-color: #404040;
+  --darkmode-primary-badge-color: #ffffff;
+  --darkmode-primary-badge-text-color: #141d2b;
+  --darkmode-secondary-badge-color: #141d2b;
+  --darkmode-secondary-badge-text-color: #ffffff;
+  --darkmode-badge-outline-color: #ffffff;
+  --darkmode-focus-button-color: inset 0 0 0 2px var(--darkmode-primary-text-color) !important;
+  --darkmode-avatar-color: #ffcfaf;
+  --darkmode-jquery-icon-color: var(--jquerySprite) !important;
+  --darkmode-datetime-color: #ffcfaf;
+  --darkmode-primary-link-color: #ffffff;
+  --darkmode-secondary-link-color: #9fef00;
+  --darkmode-primary-text-decoration: none;
+  --darkmode-secondary-text-decoration: underline;
+  --darkmode-primary-text-decoration-style: solid;
+  --darkmode-secondary-text-decoration-style: solid;
+  --darkmode-primary-background-color: #404040;
+  --darkmode-secondary-background-color: #505050;
+  --darkmode-primary-text-color: white;
+  --darkmode-secondary-text-color: #666666;
+  --darkmode-primary-button-color: #303030;
+  --darkmode-secondary-button-color: #606060;
+  --darkmode-primary-button-text-color: #ffffff;
+  --darkmode-secondary-button-text-color: #50fa7b;
+  --darkmode-primary-outline-color: #C7CDD1;
+  --darkmode-secondary-outline-color: #C7CDD1;
+  --darkmode-primary-pre-color: #303030;
+  --darkmode-primary-pre-text-color: #9fef00;
+  --darkmode-primary-focus-color: none;
+  --darkmode-subtext-color: #666666;
+  --darkmode-font-family: LatoWeb, Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --darkmode-font-size: 1em;
+  --darkmode-minical-event: rgba(0, 0, 0, 0.5);
+  --darkmode-overlay: rgba(0,0,0,0.5);
+} */

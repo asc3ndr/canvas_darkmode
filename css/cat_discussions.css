@@ -1,0 +1,71 @@
+/* DISCUSSIONS */
+
+#discussion_topic .discussion-reply-box,
+#discussion_topic .discussion-reply-box span,
+#discussion_topic .discussion-reply-box .icon-replied:before,
+[id^="entry-"] .discussion-reply-box,
+[id^="entry-"] .discussion-reply-box span,
+[id^="entry-"] .discussion-reply-box .icon-replied:before {
+  text-decoration: none !important;
+  color: var(--darkmode-subtext-color) !important;
+}
+
+[id^="entry-"] .showMore {
+  background-color: var(--darkmode-secondary-background-color) !important;
+}
+
+[id^="entry-"] .showMore a:after {
+  border-color: var(--darkmode-primary-link-color) transparent transparent;
+}
+
+#discussion_topic .discussion-fyi {
+  color: var(--darkmode-subtext-color) !important;
+}
+
+#discussion_topic .total-items,
+[id^="entry-"] .new-and-total-badge .total-items {
+  background-color: var(--darkmode-primary-badge-color) !important;
+  color: var(--darkmode-primary-badge-text-color) !important;
+}
+
+#discussion_topic .new-items,
+[id^="entry-"] .new-and-total-badge .new-items {
+  background-color: var(--darkmode-secondary-badge-color) !important;
+  color: var(--darkmode-secondary-badge-text-color) !important;
+}
+
+div[class*="__wrapper"] {
+  background-color: var(--darkmode-primary-background-color) !important;
+  border-color: var(--darkmode-primary-outline-color);
+}
+
+#content .module-sequence-footer-content {
+  border-color: var(--darkmode-primary-outline-color) !important;
+  background-color: var(--darkmode-primary-background-color) !important;
+}
+
+#content .discussions-v2__container-image {
+  color: var(--darkmode-primary-text-color);
+  background-color: var(--darkmode-secondary-background-color);
+  border-color: var(--darkmode-primary-outline-color);
+}
+
+#content .ic-item-row.ic-discussion-row {
+  background-color: var(--darkmode-secondary-background-color) !important;
+  border: 1px solid var(--darkmode-primary-outline-color) !important;
+  box-shadow: none;
+}
+
+#content .ic-item-row.ic-discussion-row .toggle-button:hover {
+  background-color: transparent !important;
+}
+
+#content .MlJlv_cjSw {
+  background-color: var(--darkmode-primary-background-color) !important;
+  color: var(--darkmode-primary-button-text-color);
+  border-color: var(--darkmode-primary-outline-color) !important;
+}
+
+#content .ic-unread-badge__count.ic-unread-badge__unread-count {
+  color: rgb(40, 42, 54) !important;
+}
