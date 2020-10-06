@@ -22,3 +22,10 @@
 [class^="slickgrid_"] .slick-cell .gradebook-cell {
   background-color: var(--darkmode-secondary-background-color) !important;
 }
+
+.grades i[class*="icon-"]:before,
+.grades i[class^="icon-"]:before,
+.grades a[class*="icon-"]:before,
+.grades a[class^="icon-"]:before {
+  color: #50fa7b !important;
+}

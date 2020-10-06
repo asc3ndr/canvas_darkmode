@@ -65,3 +65,7 @@ div[class*="__wrapper"] {
   color: var(--darkmode-primary-button-text-color);
   border-color: var(--darkmode-primary-outline-color) !important;
 }
+
+#content .ic-unread-badge__count.ic-unread-badge__unread-count {
+  color: rgb(40, 42, 54) !important;
+}

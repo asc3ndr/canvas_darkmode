@@ -6,6 +6,7 @@
 @import url("css/cat_sidebar.css");
 @import url("css/cat_account.css");
 @import url("css/cat_announcement.css");
+@import url("css/cat_assignment.css");
 @import url("css/cat_calendar.css");
 @import url("css/cat_conference.css");
 @import url("css/cat_course.css");
@@ -20,7 +21,7 @@
 @import url("css/cat_pages.css");
 @import url("css/cat_people.css");
 @import url("css/cat_tasks.css");
-
+/*trigger cahnge comment...*/
 html,
 body {
   font-family: var(--darkmode-font-family);
@@ -419,8 +420,8 @@ code,
 [dir="ltr"] pre,
 [dir="ltr"] * pre {
   font-family: var(--darkmode-font-family) !important;
-  background-color: var(--darkmode-primary-pre-color) !important;
-  color: var(--darkmode-primary-pre-text-color) !important;
+  color: var(--darkmode-primary-pre-color) !important;
+  background-color: black !important;
 }
 
 .avatar,
@@ -433,4 +434,12 @@ code,
 
 h2.course-title {
   color: var(--darkmode-primary-text-color) !important;
+}
+
+.ic-Table.ic-Table--hover-row tbody tr:hover,
+.ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-neutral:hover,
+.ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-success:hover,
+.ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-alert:hover,
+.ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-danger:hover {
+  background-color: #44475a;
 }

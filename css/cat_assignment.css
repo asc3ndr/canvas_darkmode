@@ -44,3 +44,14 @@
 /* This causes issues */ {
   color: var(--darkmode-secondary-button-text-color) !important;
 }
+
+.submission-details-comments .comments {
+  background-color: var(--darkmode-primary-background-color);
+}
+.submission-details-comments .comment {
+  color: #fff !important;
+}
+
+.submission-details-frame iframe {
+  filter: invert(1) hue-rotate(75deg);
+}
