@@ -1,0 +1,73 @@
+/* EMNE / COURSE */
+
+.header-bar {
+  background-color: var(--darkmode-primary-background-color) !important;
+  color: var(--darkmode-text-color) !important;
+}
+
+#breadcrumbs {
+  background-color: var(--darkmode-primary-background-color) !important;
+}
+
+i.nav-icon
+/* Not visible to students - icon */ {
+  background-color: var(--darkmode-secondary-background-color);
+}
+
+#right-side button.button-sidebar-wide,
+#right-side button.button-sidebar-wide:hover,
+.choose_home_page_link,
+.choose_home_page_link:hover {
+  background-color: var(--darkmode-primary-button-color) !important;
+  color: var(--darkmode-primary-link-color) !important;
+  text-decoration: var(--darkmode-primary-text-decoration) !important;
+  text-decoration-color: var(--darkmode-primary-text-color) !important;
+  text-decoration-style: var(
+    --darkmode-primary-text-decoration-style
+  ) !important;
+  border-color: var(--darkmode-primary-outline-color) !important;
+}
+
+/* COURSE SUMMARY */
+
+#syllabus > tbody > tr.date_passed * {
+  background-color: var(--darkmode-primary-background-color) !important;
+}
+
+#syllabus > tbody > tr.related *,
+#syllabus > tbody > tr.selected * {
+  background-color: var(--darkmode-secondary-background-color) !important;
+}
+
+/* COURSE ALERTS */
+
+.eIQkd_bGBk {
+  background-color: var(--darkmode-primary-background-color);
+}
+
+.fOyUs_bGBk.cvphu_bgqc.cvphu_pypk.eJkkQ_bEpV
+/* info box */ {
+  background-color: var(--darkmode-secondary-background-color);
+  border: 1px solid var(--darkmode-primary-outline-color);
+  color: var(--darkmode-primary-text-color);
+}
+
+.cvphu_dnnz
+/* info symbol */ {
+  background-color: var(--darkmode-primary-link-color) !important;
+}
+
+.cvphu_dnnz
+/* info symbol letter "i" */ {
+  color: var(--darkmode-secondary-link-color) !important;
+}
+
+.fOyUs_bGBk.erOvu_bGBk.erOvu_bvTK * > th,
+.fOyUs_bGBk.erOvu_bGBk.erOvu_bvTK * > td {
+  background-color: var(--darkmode-primary-background-color);
+  color: var(--darkmode-primary-text-color);
+}
+
+.fhWLw_blJt {
+  color: var(--darkmode-primary-text-color) !important;
+}

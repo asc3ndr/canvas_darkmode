@@ -1,0 +1,5 @@
+/* EDITOR */
+
+#editor_tabs * {
+  background-color: var(--darkmode-primary-background-color) !important;
+}
