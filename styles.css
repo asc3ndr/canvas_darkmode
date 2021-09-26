@@ -112,7 +112,7 @@ span.qBMHb_cSXm {
 #group_categories_tabs input[type=text],
 /* forced */
 [id^="search_"] {
-  color: var(--darkmode-primary-text-color) !important;
+  color: var(--darkmode-secondary-text-color) !important;
   border: 1px solid var(--darkmode-primary-outline-color) !important;
   background-color: var(--darkmode-primary-background-color) !important;
 }
