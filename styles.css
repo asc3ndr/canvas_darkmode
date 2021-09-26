@@ -1,7 +1,3 @@
-#updated_by {
-  --SF: "202010";
-}
-
 @import url("font.css");
 @import url("root.css");
 @import url("colors.css");
@@ -250,6 +246,13 @@ span.ui-menu-carat {
 
 span.ui-menu-carat span {
   background-color: inherit !important;
+}
+
+/* NOTIFICATIONS, TOP */
+#application div.ic-notification div:not([role="presentation"]), 
+#application div.ic-notification span {
+    color: #000 !important;
+    background-color: var(--darkmode-primary-text-color) !important;
 }
 
 
@@ -504,7 +507,6 @@ i.nav-icon
 #editor_tabs * {
   background-color: var(--darkmode-primary-background-color) !important;
 }
-
 
 /* CALENDAR */
 #calendar-app {
@@ -1181,6 +1183,11 @@ div[class*="__wrapper"] {
   text-decoration-style: var(--darkmode-secondary-text-decoration-style);
 }
 
+/* PERSONS */
+/*expanded group header*/
+.student-s.show-body .student-group-header {
+    background-color: var(--darkmode-secondary-background-color);
+}
 
 /* FILES */
 #content .FileUpload.FileUpload__full div {
