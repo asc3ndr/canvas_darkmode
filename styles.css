@@ -1,7 +1,3 @@
-#updated_by {
-  --SF: "202010";
-}
-
 @import url("font.css");
 @import url("root.css");
 @import url("colors.css");
@@ -103,10 +99,16 @@ input:focus {
   border-color: var(--darkmode-primary-outline-color) !important;
 }
 
+/*Search input fields*/
+span.qBMHb_cSXm {
+  border-color: var(--darkmode-primary-outline-color);
+  background: var(--darkmode-secondary-background-color);
+}
+
 #group_categories_tabs input[type=text],
 /* forced */
 [id^="search_"] {
-  color: var(--darkmode-primary-text-color) !important;
+  color: var(--darkmode-secondary-text-color) !important;
   border: 1px solid var(--darkmode-primary-outline-color) !important;
   background-color: var(--darkmode-primary-background-color) !important;
 }
@@ -244,6 +246,13 @@ span.ui-menu-carat {
 
 span.ui-menu-carat span {
   background-color: inherit !important;
+}
+
+/* NOTIFICATIONS, TOP */
+#application div.ic-notification div:not([role="presentation"]), 
+#application div.ic-notification span {
+    color: #000 !important;
+    background-color: var(--darkmode-primary-text-color) !important;
 }
 
 
@@ -498,7 +507,6 @@ i.nav-icon
 #editor_tabs * {
   background-color: var(--darkmode-primary-background-color) !important;
 }
-
 
 /* CALENDAR */
 #calendar-app {
@@ -1096,6 +1104,7 @@ div[class*="__wrapper"] {
 
 [id^="context_module_"] .ig-header .name {
   color: var(--darkmode-primary-button-text-color) !important;
+  text-shadow: none;
 }
 
 [id^="context_module_"] .ig-list .ig-row {
@@ -1175,6 +1184,11 @@ div[class*="__wrapper"] {
   text-decoration-style: var(--darkmode-secondary-text-decoration-style);
 }
 
+/* PERSONS */
+/*expanded group header*/
+.student-s.show-body .student-group-header {
+    background-color: var(--darkmode-secondary-background-color);
+}
 
 /* FILES */
 #content .FileUpload.FileUpload__full div {
