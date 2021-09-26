@@ -1104,6 +1104,7 @@ div[class*="__wrapper"] {
 
 [id^="context_module_"] .ig-header .name {
   color: var(--darkmode-primary-button-text-color) !important;
+  text-shadow: none;
 }
 
 [id^="context_module_"] .ig-list .ig-row {
