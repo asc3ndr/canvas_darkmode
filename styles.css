@@ -103,6 +103,12 @@ input:focus {
   border-color: var(--darkmode-primary-outline-color) !important;
 }
 
+/*Search input fields*/
+span.qBMHb_cSXm {
+  border-color: var(--darkmode-primary-outline-color);
+  background: var(--darkmode-secondary-background-color);
+}
+
 #group_categories_tabs input[type=text],
 /* forced */
 [id^="search_"] {
